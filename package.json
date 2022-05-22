@@ -1,0 +1,19 @@
+{
+  "name": "hoteles",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de NodeJs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yohamarie/Yohamarie.git"
+  },
+  "author": "Yohanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yohamarie/Yohamarie/issues"
+  },
+  "homepage": "https://github.com/Yohamarie/Yohamarie#readme"
+}
