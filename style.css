@@ -1,0 +1,53 @@
+style.css
+
+ { 
+ 	box-sizing: border-box;
+ }
+
+ .jumbotron {
+ 	background-color: lightblue;
+ 	color: black;
+ 	  background-size: cover;
+     
+    	
+ }
+
+.flex-container {
+    	display: flex;
+    	backgroung-color: ligthgray;
+    	width: 100%;
+
+    	}
+
+.footer {
+    	position: fixed;
+    	bottom: 0px;
+    	display: flex;
+    	left: 0;
+    	height: fit-content;
+    	justify-content: center;
+    	height: auto;
+    	background-color: black;
+    	align-items: center;
+    	margin-bottom: 0px;
+    	fonr-family: Open Sans;
+    	flex-wrap: nowrap;
+    	width: 100%;
+    	justify-content: space-around;
+
+    }
+
+    ul {
+  list-style-type: none;
+}
+
+
+.table {
+ white-space: 100%;
+ margin-left: auto;
+ justify-content: space-between;
+
+
+}
+
+
