@@ -1,138 +1,31 @@
 style.css
-
- { 
- 	box-sizing: border-box;
- }
-
-
-
-  .navbar {
-    background-color: black;
-    flex-wrap: nowrap;
-    width: 400px;
-    border-color: black;
-    border: solid;
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    height: 110px;
-
-
+   
+.col-sm-4 {
+ display: inline-block;
+ align-items: center;
+ di
 }
 
-   
-.breadcrumb {
- display: flex;
- justify-content: space-evenly;
-
-  }
-
-
-.flex-container {
-    	backgroung-color: ligthgray;
-        flex-wrap: nowrap;
-        padding: 10px;
-        display: flex;
-      
-        }
-
-.col-sm-4 {
-        display:block;
-        width:100%;
-        flex-wrap: nowrap;
-        margin: 10px;
-        text-align: center;
-        line-height: 75px;
-       height: i000px;
-         border-color: black;
-       border:solid 0.5px;
-
-        }
- 
- .card {
-        display:inline-block;
-        width:100%;
-        flex-wrap: nowrap;
-        margin: 10px;
-        text-align: center;
-        line-height: 75px;
-       height: i000px;
-        
-
-        }
-
 .footer {
-    	position: !important;
-    	bottom: 0px;
+    	position: relative;
+        display: flex;
+        bottom: 0;
+        width: 100%;
     	display: flex;
     	left: 0;
-    	height: fit-content;
     	justify-content: center;
     	height: auto;
     	align-items: center;
     	margin-bottom: 0px;
-    	fonr-family: Open Sans;
     	flex-wrap: nowrap;
-    	width: 100%;
     	justify-content: space-around;
-        margin-top: auto;
-        bottom:0;
-
-        
-
+        color: white;
+       
+    
     }
 
-.footer li {
-color: white;
-}
-
-    ul {
+ul {
   list-style-type: none;
-
-}
-
-  ol {
-  list-style-type: none;
-}
-
-li {
-  list-style-type: none;
-
-
-}
-
-.col-sm-4 {
- flex-wrap: nowrap;
-
-}
-
-.table {
- white-space: 100%;
- margin-left: auto;
- justify-content: space-evenly;
- flex-wrap: nowrap;
-
-}
-
-
-.d-flex {
-display: inline-block;
-flex-wrap: nowrap;
-}
-
-.jumbotron {
-margin-top:0%;
- 
-}
-
-.card-server {
-    text-align:center;
-    margin-left:1%;
-    margin-right:1%;
-    padding: 2%;
 }
 
 
