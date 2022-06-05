@@ -84,6 +84,18 @@ box-sizing: border-box;
 
  }
 
+  .data-tooltip{
+position: relative;
+cursor: default;
+content: none;
+
+ }
+  .data-tooltip:  after{
+position: absolute;
+width: 90px;
+content: attr(data-tooltip);
+visibility: hidden;
+ }
 
 .footer {
     	position: static;
@@ -96,7 +108,6 @@ box-sizing: border-box;
     	justify-content: space-around;
         color: white;
 
-           
  
     }
 
