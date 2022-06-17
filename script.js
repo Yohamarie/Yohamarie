@@ -1,0 +1,2 @@
+script.js
+alert ('Klk');

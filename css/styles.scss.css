@@ -1,7 +1,15 @@
-style.css
+styles.scss
 
-   
-.banner {
+$yellow:#dede14;
+$green:#8fe39a;
+$red:#e64b43;
+
+@mixin margenes ($top,$bottom) {
+margin top:$top;
+margin-bottom:$bottom;
+}
+
+$banner {
 position: fixed;
 width: 100%;
 background: url(https://content.r9cdn.net/himg/be/ae/e6/ice-39597-61804794_3XL-213017.jpg);
@@ -13,28 +21,17 @@ height: 600px;
 .capa {
  width: 100%;
  height: 100%;
- position: absolute;
+ position: relative;
  top: 0;
  left: 0;
  background: rgba(0, 0, 0, 0.75);
  }
 
- .breadcrumb{
-background-color: white;
- }
-
- .jumboton {
-background-color: #dede14;
-@inlude margenes:10px,0px;
-height: 100px;
-margin-bottom: 20px;
-display: flex;
--ms-flex-align: center;
-align-items: center;
--webkit-box-align: center;
-justify-content: center;
- }
-
+.jumboton {
+background-color:$yellow;
+color:black;
+@inlude margenes: 10px,0px;
+}
 
 
  .contenido {
@@ -48,6 +45,7 @@ justify-content: center;
  flex-direction: column;
  justify-content: center;
  align-content: center;
+ background-color: $green:;
  }
 
  .container-fluid {
@@ -55,9 +53,8 @@ justify-content: center;
  flex-direction: column;
  justify-content: space-between;
  flex-wrap: wrap;
- margin-top: 50px;
-
-
+@inlude margenes: 50px,0px;
+background-color: $red;
  }
 
 
@@ -85,8 +82,7 @@ box-sizing: border-box;
  justify-content: space-between;
  align-content: center;
  flex-wrap: wrap;
- margin-top: 50px;
- margin-top: -10px;
+@inlude margenes: 50px,0px;
 
  }
 
@@ -115,17 +111,4 @@ box-sizing: border-box;
 ul {
   list-style-type: none;
 }
-
-.btn-primary-modal {
-background-color:#0080ff;
-color: #fff;
-border-color: #0080ff;
-border-radius: 2px;
-}
-
-.btn-primary-modal:focus {
-background-color:seagreen;
-color: #fff;
-}
-
 

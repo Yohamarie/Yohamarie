@@ -1,6 +1,14 @@
-style.css
+styles2.less
 
-   
+@yellow:#dede14;
+@green:#8fe39a;
+@red:#e64b43;
+
+.margenes @top: 0px,@bottom:0px {
+margin top:@top;
+margin-bottom:@bottom;
+}
+
 .banner {
 position: fixed;
 width: 100%;
@@ -13,28 +21,17 @@ height: 600px;
 .capa {
  width: 100%;
  height: 100%;
- position: absolute;
+ position: relative;
  top: 0;
  left: 0;
  background: rgba(0, 0, 0, 0.75);
  }
 
- .breadcrumb{
-background-color: white;
- }
-
- .jumboton {
-background-color: #dede14;
-@inlude margenes:10px,0px;
-height: 100px;
-margin-bottom: 20px;
-display: flex;
--ms-flex-align: center;
-align-items: center;
--webkit-box-align: center;
-justify-content: center;
- }
-
+.jumboton {
+background-color:@yellow;
+color:black;
+.margenes: 50px,0px;
+}
 
 
  .contenido {
@@ -48,6 +45,7 @@ justify-content: center;
  flex-direction: column;
  justify-content: center;
  align-content: center;
+ background-color: @green:;
  }
 
  .container-fluid {
@@ -55,9 +53,8 @@ justify-content: center;
  flex-direction: column;
  justify-content: space-between;
  flex-wrap: wrap;
- margin-top: 50px;
-
-
+.margenes: 50px,0px;
+background-color: @red;
  }
 
 
@@ -85,8 +82,7 @@ box-sizing: border-box;
  justify-content: space-between;
  align-content: center;
  flex-wrap: wrap;
- margin-top: 50px;
- margin-top: -10px;
+.margenes: 50px,0px;
 
  }
 
@@ -115,17 +111,3 @@ box-sizing: border-box;
 ul {
   list-style-type: none;
 }
-
-.btn-primary-modal {
-background-color:#0080ff;
-color: #fff;
-border-color: #0080ff;
-border-radius: 2px;
-}
-
-.btn-primary-modal:focus {
-background-color:seagreen;
-color: #fff;
-}
-
-
